@@ -192,7 +192,7 @@
     padding-left: 20px;
     font-size: 0.7rem;
     font-family: "montserrat";
-    color: #acacac;
+    color: #7e7e7e;
 }
 .right-left-playlist-list i {
     margin-left: 10px;
@@ -260,6 +260,5 @@
 .right-playlist-sec-one-content-left-title h2{
     font-size: .8rem;
     padding-top: 5px;
+    color: #bdbdbd;
 }
-
-
