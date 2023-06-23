@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    background-color: #0c1027;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.navbar{
+    display: flex;
+    background-color: #0c1027;
+    justify-content: space-between;
+    color: #fff;
+    font-family: "capriola";
+    align-items: center;
+}
+.left-navbar{
+    display: inline-flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+.left-navbar img{
+    border-radius: 50%;
+}
+.left-navbar h1{
+    padding-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+.left-navbar h1 div{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.left-navbar h2{
+    padding-left: 70px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+.left-navbar h2:hover{
+    color: #cacaca;
+}
+
+.right-navbar{
+    display: inline-flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+.right-navbar i{
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 1.4rem;
+}
+.right-navbar input{
+    width: 100%;
+    padding: 10px 100px 10px 10px;
+    border: none;
+    border-radius: 9px;
+    background-color: #12193e;
+}
+.right-navbar img{
+    border-radius: 50%;
+}
+
+.left-playlist{
+    display: inline-flex;
+    /* position: relative; */
+    width: 55vw;
+    background-color: #12193e;
+    color: white;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+.left-playlist-sec{
+    display: inline-flex;
+}
+.left-playlist-sec-about{
+    padding: 40px 30px;
+    
+}
+.left-playlist-sec-about-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    right: 0;
+}
+.left-playlist-sec-about-heading h1{
+    font-family: "Calistoga";
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.left-playlist-sec-about-heading p{
+    font-family: sans-serif;
+    font-size: .7rem;
+}
+.left-playlist-sec-about h3{
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 1.0rem;
+}
+.left-playlist-sec-about p{
+    padding-top: 15px;
+    font-size: 0.8rem;
+    font-family: "montserrat";
+}
+.left-playlist-sec-about .btn-playall{
+    background-image: linear-gradient(to right, #12193e 0%, #26a0da  51%, #12193e  100%);
+    margin-top: 50px;
+    margin-right: 20px;
+    padding: 10px 30px;
+    text-align: center;
+    transition: .5s;
+    color: white;   
+    border: none;    
+}
+.left-playlist-sec-about .btn-playall:hover {
+    color: #fff;
+    font-size: .8rem;
+    text-decoration: none;
+}
+.left-playlist-sec-about .btn-follow{
+    background-color: transparent; 
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px 30px;
+    text-align: center;
+    transition: .5s;
+    color: white;
+    border: none;        
+}
+.left-playlist-sec-about .btn-follow:hover {
+    color: #acacac;
+    font-size: .8rem;
+    text-decoration: none;
+}
+.left-playlist-sec-about .left-playlist-sec-about-p {
+    font-family: sans-serif;
+    font-size: 0.6rem;
+}
+
+.left-playlist-2{
+    position: relative;
+    width: 55vw;
+    background-color: #1a1e33;
+    color: white;
+    margin-left: 160px;
+    margin-top: 5px;
+}
+.left-playlist-list {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.left-left-playlist-list{
+    display: flex;
+    align-items: center;
+}
+.left-left-playlist-list h2{
+    font-size: 1rem;
+    font-family: "montserrat";
+    color: #f1f1f1;
+}
+.right-left-playlist-list{
+    display: flex;
+    align-items: center;
+    
+}
+
+.left-left-playlist-list img{
+    margin-left: 13px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 1px rgb(142, 142, 142);
+}
+.left-left-playlist-list-h1-h2 h1{
+    padding-left: 20px;
+    font-size: 1rem;
+    font-family: "Calistoga";
+    font-weight: 100;
+}
+
+.left-left-playlist-list-h1-h2{
+    display: block;
+}
+.left-left-playlist-list-h1-h2 h2{
+    padding-left: 20px;
+    font-size: 0.7rem;
+    font-family: "montserrat";
+    color: #acacac;
+}
+.right-left-playlist-list i {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.middle-left-playlist-list{
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+    color: #dedede;
+    place-content: center;
+}
+.left-playlist-two{
+    display: flex;
+    flex-direction: column;
+}
+
+/* container two */
+
+.container-two{
+    margin: 10px 20px;
+    color: white;
+    font-family: "montserrat";
+}
+    
+.right-playlist-sec-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px ;
+    width: 25vw; 
+}
+.right-playlist-sec-one-heading{
+    font-size: 1.6rem;
+    padding-top: 20px;
+}
+.right-playlist-sec-one h3{
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+.right-playlist-sec-one-content{
+    display: inline-flex;
+    width: 25vw;
+    justify-content: space-between;
+}
+.right-playlist-sec-one-content-left{
+    display: flex;
+}
+.right-playlist-sec-one-content-left img{
+    margin-top: 4px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 0px rgb(92, 92, 92);
+
+}
+.right-playlist-sec-one-content-left-title{
+    padding-top: 5px;
+    padding-left: 10px;
+
+}
+.right-playlist-sec-one-content-left-title h1{
+    font-size: 1rem;
+    font-family: "montserrat";
+}
+.right-playlist-sec-one-content-left-title h2{
+    font-size: .8rem;
+    padding-top: 5px;
+}
+
+
