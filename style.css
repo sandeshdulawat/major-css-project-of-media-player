@@ -7,9 +7,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+    width: 100vw;
+}
 .main-container{
     background-color: #0c1027;
-    width: 100vw;
     height: 100vh;
     display: flex;
 }
@@ -31,7 +34,7 @@
 }
 .left-navbar h1{
     padding-left: 10px;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: 100;
 }
 .left-navbar h1 div{
@@ -264,3 +267,67 @@
     padding-top: 5px;
     color: #bdbdbd;
 }
+
+
+
+.master-play{
+    background: rgb(45, 45, 45);
+    position: fixed;
+    width: 100vw;
+    bottom: 0%;
+    color: #eaeaea;
+    
+}
+.controls-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1% 7%;
+}
+.image-and-name{
+    display: flex;
+    align-items: center;
+
+}
+.image-and-name{
+    gap: 5%;
+    width: auto;
+}
+.image-and-name img{
+    border-radius: 4px;
+}
+.image-and-name h1{
+    font-size: 1.2rem;
+    font-family: "Calistoga";
+    font-weight: 100;    
+}
+.image-and-name h2{
+    font-size: 0.8rem;
+    font-family: "montserrat";
+    font-weight: 900;
+}
+
+.controls-layout{
+    font-size: 20px;
+    align-items: center;
+    width: 20%;
+    
+}
+.controls-layout #input-one{
+    display: flex;
+    padding: 0% 10%; 
+    width: 100%;
+    
+    
+}
+.controls-layout div i {
+    margin-left: 10%;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-left: 15%;
+}
+.volume-sec i{
+    padding: 10px;
+}
+
+
