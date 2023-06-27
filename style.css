@@ -276,6 +276,7 @@ body{
     width: 100vw;
     bottom: 0%;
     color: #eaeaea;
+    z-index: 1000;
     
 }
 .controls-box{
